@@ -1,0 +1,9 @@
+package five;
+
+
+import java.util.Calendar;
+
+public interface DateTest {
+	Calendar fromCalendarString(String s); //´Ó×Ö·û´®¶ÁÈ¡
+	String toCalendarString();//´òÓ¡µ½×Ö·û´®
+}
